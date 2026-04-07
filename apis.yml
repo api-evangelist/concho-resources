@@ -1,7 +1,12 @@
 aid: concho-resources
-url: https://raw.githubusercontent.com/api-evangelist/concho-resources/refs/heads/main/apis.yml
+url: 
+  https://raw.githubusercontent.com/api-evangelist/concho-resources/refs/heads/main/apis.yml
 modified: '2026-03-23'
 apis: []
 common:
   - type: Website
     url: https://www.concho-resources.com
+description: >-
+  Concho Resources is an independent oil and natural gas company engaged in the acquisition,
+  development, exploration, and production of oil and natural gas properties primarily
+  in the Permian Basin.
