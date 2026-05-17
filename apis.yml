@@ -25,7 +25,7 @@ tags:
 created: '2025-03-23'
 modified: '2026-04-28'
 specificationVersion: '0.19'
-x-type: company
+kind: company
 x-status: defunct
 x-successor: conocophillips
 apis: []
