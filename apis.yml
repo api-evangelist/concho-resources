@@ -30,6 +30,8 @@ x-status: defunct
 x-successor: conocophillips
 apis: []
 common:
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/concho-resources
   - type: Successor Website
     url: https://www.conocophillips.com
   - type: Acquisition Announcement
