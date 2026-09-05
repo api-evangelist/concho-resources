@@ -1,0 +1,111 @@
+# Concho Resources — /.well-known/ discovery probe
+# RECORDED ABSENCE. Nothing was found; no WellKnown/SecurityTxt pointer is emitted in apis.yml,
+# because no path returned a 200 carrying a real document.
+generated: '2026-09-05'
+method: probed
+source: >-
+  Direct HTTPS probes of every host this record knows. Concho Resources was acquired by
+  ConocoPhillips on 2021-01-15 and the brand was retired; conchoresources.com now answers every
+  path with a blanket HTTP 302 to https://www.conocophillips.com/. No API, docs or developer
+  subdomain resolves (api./developer./docs.conchoresources.com all NXDOMAIN). Documents served
+  on conocophillips.com belong to ConocoPhillips, a different company, and are deliberately NOT
+  recorded here.
+slug: concho-resources
+summary:
+  hosts_probed: 2
+  paths_probed: 14
+  documents_found: 0
+  outcome: >-
+    Every probed path returned 302 to a successor company's homepage. There is no /.well-known/
+    surface published under the Concho Resources name.
+hosts:
+  - host: conchoresources.com
+    note: >-
+      Resolves to 138.32.33.72 (CSC corporate domain management). Blanket 302 redirect on every
+      path to https://www.conocophillips.com/ — a catch-all parking redirect, not a document.
+    documents:
+      - path: /.well-known/security.txt
+        status: 302
+        file: null
+      - path: /.well-known/openid-configuration
+        status: 302
+        file: null
+      - path: /.well-known/oauth-authorization-server
+        status: 302
+        file: null
+      - path: /.well-known/api-catalog
+        status: 302
+        file: null
+      - path: /.well-known/ai-plugin.json
+        status: 302
+        file: null
+      - path: /.well-known/agent-card.json
+        status: 302
+        file: null
+      - path: /.well-known/agent.json
+        status: 302
+        file: null
+  - host: www.conchoresources.com
+    note: Same blanket 302 to https://www.conocophillips.com/ on every path.
+    documents:
+      - path: /.well-known/security.txt
+        status: 302
+        file: null
+      - path: /.well-known/openid-configuration
+        status: 302
+        file: null
+      - path: /.well-known/oauth-authorization-server
+        status: 302
+        file: null
+      - path: /.well-known/api-catalog
+        status: 302
+        file: null
+      - path: /.well-known/ai-plugin.json
+        status: 302
+        file: null
+      - path: /.well-known/agent-card.json
+        status: 302
+        file: null
+      - path: /.well-known/agent.json
+        status: 302
+        file: null
+contract_discovery:
+  note: >-
+    STEP 0b contract discovery run in full against every host this record knows. All misses.
+  probes:
+    - url: https://conchoresources.com/openapi.json
+      status: 302
+      result: redirect to successor homepage, no spec
+    - url: https://conchoresources.com/swagger.json
+      status: 302
+      result: redirect to successor homepage, no spec
+    - url: https://conchoresources.com/llms.txt
+      status: 302
+      result: redirect to successor homepage, no llms.txt
+    - url: https://conchoresources.com/.well-known/agent-card.json
+      status: 302
+      result: no A2A agent card
+    - url: https://conchoresources.com/.well-known/agent.json
+      status: 302
+      result: no legacy A2A agent card
+  dns:
+    - host: api.conchoresources.com
+      result: NXDOMAIN
+    - host: developer.conchoresources.com
+      result: NXDOMAIN
+    - host: docs.conchoresources.com
+      result: NXDOMAIN
+  registries:
+    - registry: npm
+      query: concho
+      result: no first-party package (only an unrelated NWS river-gauge module)
+    - registry: pypi
+      package: concho
+      status: 404
+    - registry: github-orgs
+      queried: [conchoresources, concho-resources, ConchoResources]
+      status: 404
+  archive:
+    - source: web.archive.org CDX
+      query: conchoresources.com/developer* , /api* , /*.well-known*
+      result: zero captures — no developer or API path was ever archived
