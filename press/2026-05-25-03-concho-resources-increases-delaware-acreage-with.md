@@ -1,7 +1,9 @@
 ---
 title: Concho Resources Increases Delaware Acreage with ...
 url: https://www.oilandgas360.com/concho-resources-increases-delaware-acreage-430-million-acquisition/
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Concho Resources" press release artificial intelligence'
 position: 3
 source: serpapi-google
