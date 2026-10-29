@@ -1,4 +1,4 @@
-# Concho Resources (concho-resources)
+# Concho Resources
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,32 +64,28 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
+> **No longer operating.** This company or product has shut down, been discontinued, or been deprecated. This profile is kept as a historical record and is not maintained or rated.
+
 Concho Resources, Inc. was an independent oil and natural gas company focused on the acquisition, development, exploration, and production of oil and natural gas properties primarily in the Permian Basin of West Texas and southeast New Mexico. On January 15, 2021, ConocoPhillips completed an all-stock acquisition of Concho Resources at a total enterprise value of $13.3 billion, retiring the Concho brand. This profile is preserved as a historical record; Concho no longer operates under this name and never published any public developer APIs.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/concho-resources/refs/heads/main/apis.yml)
+**Areas:** Defunct · Energy · Exploration · Natural Gas · Oil and Gas · Permian Basin · Upstream · Fortune 1000
 
-## Status
+## Concho Resources on APIs.io (historical record)
 
-- **Operational status:** Defunct (acquired by ConocoPhillips, January 15, 2021)
-- **Successor:** [ConocoPhillips](https://www.conocophillips.com)
-- **x-type:** company
+Everything profiled for Concho Resources is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/concho-resources/](https://apis.io/providers/concho-resources/)** — or go straight to one of the APIs or properties below.
 
-## Tags
+## API Evangelist rating
 
-- Defunct, Energy, Exploration, Natural Gas, Oil and Gas, Permian Basin, Upstream
+**Not rated** — this company is recorded as no longer operating, so no score is published. If it is in fact operating, say so on this repository and it will be re-profiled.
 
-## APIs
+## How this profile is made
 
-No public developer APIs were ever published under the Concho Resources brand. Modern data and partner integrations from the successor company are surfaced under [ConocoPhillips](https://www.conocophillips.com).
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
 
-## Common Properties
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Concho Resources: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
 
-- [ConocoPhillips (successor)](https://www.conocophillips.com)
-- [Acquisition Announcement](https://www.conocophillips.com/news-media/story/conocophillips-completes-acquisition-of-concho-resources/)
-- [Concho Resources on Wikipedia](https://en.wikipedia.org/wiki/Concho_Resources)
+## Open an issue
 
-## Maintainers
-
-**FN:** Kin Lane
-
-**Email:** kin@apievangelist.com
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/concho-resources/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
